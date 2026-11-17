@@ -26,8 +26,8 @@ This repository delivers an **end-to-end, production-grade Crowdedness-Aware Jou
 | **Stop Entity Resolution** | 48.27% raw string match | **93.13% match rate** | **+44.86% boost** via abbreviation expansion (`sec`, `ph-ii`, `stn`) & RapidFuzz |
 | **Valid Commuters Recovered** | 1,237,978 tickets | **2,574,781 forward pax** | **93.51% ticketing volume retained** after directional route alignment |
 | **Network Scale Modeled** | Static GTFS only | **1,213,000 segment-slots** | Full time-dependent coverage across 2,574 canonical routes & 6,862 stops |
-| **Diurnal Peak vs. Lull Contrast** | Uniform / Static | **72.7% drop in midday load** | Morning peak P90 = **0.594**; Afternoon lull P90 = **0.102**; Evening peak = **0.409** |
-| **Tidal Asymmetry Captured** | Undifferentiated | **4.55× directional swing** | Route `717A`: 0.802 morning outbound vs. 0.176 return; flips to 0.799 in evening |
+| **Diurnal Peak vs. Lull Contrast** | Uniform / Static | **83% drop in midday P90** | Morning peak P90 = **0.594**; Afternoon lull P90 = **0.102**; Evening peak = **0.409** |
+| **Directional Asymmetry** | Undifferentiated | **Busier direction switches AM↔PM** | Route `717A`: UP 0.802 vs DOWN 0.648 in the morning; DOWN 0.799 vs UP 0.632 in the evening |
 | **McRAPTOR Query Latency** | Multi-second graph search | **~170 ms end-to-end** | Sub-microsecond ($0.27\,\mu\text{s}$) array lookups with automatic time-slot progression |
 | **Headway Wait Modeling** | Flat static wait assumption | **Route-specific $H_{r,t}$** | Empirical headway per route across 5 day windows; $1.5\times$ out-of-vehicle wait penalty |
 | **Boarding-Denial Crush Risk** | Zero missed-bus awareness | **$p_{\text{deny}}$ for $C > 0.80$** | Prevents routing into crush-load buses ($1.7\times$ expected missed-bus delay penalty) |

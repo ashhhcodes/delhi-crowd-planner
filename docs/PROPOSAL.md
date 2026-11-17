@@ -111,10 +111,10 @@ Our model was validated against the entire month of October 2026 ticketing data 
 
 1. **Bi-Modal Diurnal Commuter Waves**:
    - **Morning Peak (08:30–10:30)**: Network P90 crowding reaches **0.594** (Heavy standing).
-   - **Afternoon Lull (12:00–14:30)**: Network P90 drops by **72% to 0.102** (Open seating).
-   - **Evening Peak (17:30–20:30)**: Network P90 rebounds to **0.409** (Suburban dispersal).
-2. **Directional Tidal Reversals**:
-   - Radial line `717A` (Mehrauli $\to$ Badarpur) exhibits a morning peak crowding score of **0.802** Outbound (`717AUP`) vs. **0.176** Inbound (`717ADOWN`). In the evening, the tidal wave reverses: `717ADOWN` spikes to **0.799**, while `717AUP` drops to **0.254**.
+   - **Afternoon Lull (13:00–15:30)**: Network P90 drops by **83% to 0.102** (Open seating).
+   - **Evening Peak (17:30–20:00)**: Network P90 rebounds to **0.409** (Suburban dispersal).
+2. **Directional Asymmetry**:
+   - Radial line `717A` (Mehrauli $\to$ Badarpur) exhibits a morning peak crowding score of **0.802** on `717AUP` vs. **0.648** on `717ADOWN`. In the evening the busier direction switches: `717ADOWN` reaches **0.799**, while `717AUP` falls to **0.632**.
 3. **Pareto Comfort Unlocking (Nehru Place $\to$ Dhaula Kuan)**:
    - Our planner demonstrates that taking AC line `724EXTDOWN` instead of Non-AC line `567AUP` saves **33% in passenger crowding** while adding **only 6 seconds** to the 38-minute trip.
 

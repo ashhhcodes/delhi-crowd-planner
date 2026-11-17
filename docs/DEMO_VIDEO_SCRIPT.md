@@ -92,8 +92,8 @@
 > **Narrator:**  
 > "On the **Validation Dashboard**, we see citywide proof of our model:
 > - **Morning Peak P90** hits **0.594** across radial corridors.
-> - During the **Midday Lull**, crowding drops by **72% down to 0.102**, reflecting abundant seating.
-> - And our directional asymmetry metrics prove perfect tidal reversals: `717AUP` is packed in the morning at 0.802, while the return `717ADOWN` sits at 0.176—and completely flips in the evening rush."
+> - During the **Midday Lull**, crowding drops by **83% down to 0.102**, reflecting abundant seating.
+> - And our directional asymmetry check shows the busier direction switching: `717AUP` is at 0.802 in the morning against 0.648 on `717ADOWN`, and in the evening `717ADOWN` leads at 0.799."
 
 ---
 
